@@ -68,6 +68,8 @@ hr {
   height: 0;
   overflow: visible; }
 
+
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -9703,3 +9705,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    @media (min-width: 768px) {
+      /* CSS styles for tablets and desktops */
+  }
+  
+  @media (min-width: 992px) {
+      /* CSS styles for desktops */
+  }
+  
